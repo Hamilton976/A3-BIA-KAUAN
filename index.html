@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#087f8c">
+  <meta name="description" content="Portal educativo de biossegurança, prevenção de infecções e higienização.">
+  <title>BioSeguro | Biossegurança para todos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement"><span class="pulse"></span> Informação, prevenção e cuidado começam com você.</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="BioSeguro página inicial">
+      <span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 34 8v10c0 9-5.8 15-14 19C11.8 33 6 27 6 18V8z" fill="currentColor" opacity=".17"/><path d="M20 5 32 9v9c0 7.6-4.7 13-12 17C12.7 31 8 25.6 8 18V9z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="m13 20 4.5 4.5L27 15" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <span><strong>BioSeguro</strong><small>Biossegurança para todos</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#inicio" class="nav-link active">Início</a>
+      <a href="#higiene" class="nav-link">Guia de higiene</a>
+      <a href="#microorganismos" class="nav-link">Microrganismos</a>
+      <a href="#quiz" class="nav-link">Quiz</a>
+      <a href="#comunidade" class="nav-link">Comunidade</a>
+    </nav>
+    <a class="header-cta" href="#quiz">Testar conhecimento <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> PREVENÇÃO É UM ATO DE CUIDADO</div>
+        <h1>Pequenas atitudes.<br><span>Mais segurança</span><br>para todos.</h1>
+        <p class="hero-description">Aprenda de forma simples e interativa como prevenir infecções, praticar a higienização correta e tornar os ambientes de cuidado mais seguros.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#higiene">Explorar guia <span>→</span></a>
+          <a class="button button-secondary" href="#microorganismos"><span class="play-icon">▶</span> Conhecer os riscos</a>
+        </div>
+        <div class="hero-proof"><div class="avatar-stack"><span>✓</span><span>+</span><span>♥</span></div><p><strong>Conhecimento que protege</strong><br><small>Conteúdo educativo para profissionais e comunidade.</small></p></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-blob"></div>
+        <div class="hero-image-card"><img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=900&q=85" alt="Profissional de saúde utilizando equipamentos de proteção em ambiente clínico"></div>
+        <div class="floating-card floating-top"><span class="floating-icon mint">✦</span><span><strong>Prevenção diária</strong><small>Hábitos que fazem diferença</small></span></div>
+        <div class="floating-card floating-bottom"><span class="check-circle">✓</span><span><strong>Higienize as mãos</strong><small>Antes e depois do cuidado</small></span></div>
+        <div class="mascot-bubble"><span class="mascot-face">●ᴗ●</span><span>Oi! Eu sou a Bibi.<br><b>Vamos aprender juntos?</b></span></div>
+      </div>
+    </section>
+
+    <section class="quick-stats section-wrap" aria-label="Destaques do portal">
+      <div class="stat"><span class="stat-icon blue">✋</span><div><strong>Higiene correta</strong><small>Passos simples e práticos</small></div></div>
+      <div class="stat"><span class="stat-icon green">⌕</span><div><strong>Informação confiável</strong><small>Aprendizado consciente</small></div></div>
+      <div class="stat"><span class="stat-icon yellow">✧</span><div><strong>Aprenda brincando</strong><small>Teste seus conhecimentos</small></div></div>
+      <div class="stat"><span class="stat-icon lilac">♡</span><div><strong>Cuidado coletivo</strong><small>Segurança para todos</small></div></div>
+    </section>
+
+    <section class="section section-tint" id="painel">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><span class="eyebrow">SEU PAINEL DE PREVENÇÃO</span><h2>O cuidado começa <span>pela informação.</span></h2></div>
+          <p>Um resumo rápido para manter a biossegurança no seu dia a dia.</p>
+        </div>
+        <div class="dashboard-grid">
+          <article class="dashboard-card featured-card">
+            <div class="card-topline"><span class="mini-label">DICA DO DIA</span><span class="sparkle">✦</span></div>
+            <div class="tip-illustration"><div class="tip-hand">✋</div><span class="spark s1">✦</span><span class="spark s2">✧</span><span class="spark s3">✦</span></div>
+            <h3>Não esqueça das mãos!</h3>
+            <p>A higienização das mãos é uma medida essencial para reduzir a transmissão de microrganismos.</p>
+            <a href="#higiene" class="text-link">Ver passo a passo <span>→</span></a>
+          </article>
+          <article class="dashboard-card checklist-card">
+            <div class="card-topline"><span class="mini-label">CHECKLIST PESSOAL</span><span class="checklist-count" id="checklistCount">0/3 concluídos</span></div>
+            <h3>Meu cuidado de hoje</h3><p class="muted">Marque as ações que você já praticou.</p>
+            <label class="task"><input type="checkbox" class="daily-task"><span class="fake-check"></span><span>Higienizei as mãos nos momentos necessários</span></label>
+            <label class="task"><input type="checkbox" class="daily-task"><span class="fake-check"></span><span>Utilizei proteção adequada à atividade</span></label>
+            <label class="task"><input type="checkbox" class="daily-task"><span class="fake-check"></span><span>Mantive superfícies de uso limpas</span></label>
+            <div class="progress-track"><span id="checklistProgress"></span></div>
+            <small class="disclaimer">Checklist educativo — não substitui protocolos institucionais.</small>
+          </article>
+          <article class="dashboard-card alert-card">
+            <div class="card-topline"><span class="mini-label">FIQUE ATENTO</span><span class="alert-symbol">!</span></div>
+            <h3>Prevenção é responsabilidade compartilhada</h3>
+            <p>Em ambientes de saúde, siga os protocolos locais, use os EPIs indicados e comunique situações de risco à equipe responsável.</p>
+            <div class="alert-footer"><span class="alert-dot"></span> Orientação geral de biossegurança</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="higiene">
+      <div class="section-heading">
+        <div><span class="eyebrow">GUIA PRÁTICO</span><h2>Hábitos que <span>fazem a diferença.</span></h2></div>
+        <p>Explore orientações introdutórias. Em serviços de saúde, siga sempre as normas e protocolos vigentes.</p>
+      </div>
+      <div class="guide-layout">
+        <div class="guide-tabs" role="tablist" aria-label="Guias de higienização">
+          <button class="guide-tab selected" data-guide="hands" role="tab" aria-selected="true"><span class="guide-tab-icon">✋</span><span><strong>Higienização das mãos</strong><small>O primeiro passo</small></span><span class="tab-arrow">↗</span></button>
+          <button class="guide-tab" data-guide="ppe" role="tab" aria-selected="false"><span class="guide-tab-icon">♧</span><span><strong>Equipamentos de proteção</strong><small>Uso consciente de EPIs</small></span><span class="tab-arrow">↗</span></button>
+          <button class="guide-tab" data-guide="surfaces" role="tab" aria-selected="false"><span class="guide-tab-icon">✧</span><span><strong>Limpeza de superfícies</strong><small>Ambientes mais seguros</small></span><span class="tab-arrow">↗</span></button>
+        </div>
+        <article class="guide-content" id="guideContent" aria-live="polite"></article>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="microorganismos">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><span class="eyebrow">BIBLIOTECA EDUCATIVA</span><h2>Conhecer para <span>prevenir.</span></h2></div>
+          <p>Informação introdutória sobre microrganismos importantes para a prevenção de infecções.</p>
+        </div>
+        <div class="microbe-feature">
+          <div class="microbe-art"><div class="microbe-orbit orbit-one"></div><div class="microbe-orbit orbit-two"></div><div class="microbe"><span class="microbe-eye e1"></span><span class="microbe-eye e2"></span><span class="microbe-smile"></span><i>✦</i><b>+</b></div><span class="microbe-label">MICROBIOLOGIA</span></div>
+          <div class="microbe-copy"><span class="pill pill-green">DESTAQUE</span><h3><em>Acinetobacter baumannii</em></h3><p>É uma bactéria que pode estar associada a infecções, especialmente em ambientes de assistência à saúde. Algumas cepas apresentam resistência a diversos antimicrobianos, tornando a prevenção e o controle de infecções especialmente importantes.</p>
+            <div class="fact-grid"><div><span>01</span><strong>Transmissão</strong><small>Pode ocorrer por contato com mãos, superfícies ou equipamentos contaminados.</small></div><div><span>02</span><strong>Resistência</strong><small>Algumas cepas podem ser resistentes a múltiplos antibióticos.</small></div><div><span>03</span><strong>Prevenção</strong><small>Higiene das mãos, limpeza adequada e protocolos de controle.</small></div></div>
+            <p class="medical-note">O diagnóstico e o tratamento são decisões de profissionais de saúde. Este conteúdo não substitui avaliação clínica.</p>
+          </div>
+        </div>
+        <div class="other-microbes">
+          <article class="microbe-card"><span class="microbe-card-icon coral">✣</span><div><span class="microbe-type">BACTÉRIA</span><h3><em>Staphylococcus aureus</em></h3><p>Pode colonizar a pele e o nariz e, em determinadas situações, causar infecções. A higiene e o cuidado com feridas ajudam na prevenção.</p><button class="learn-more" data-info="staph">Saiba mais <span>→</span></button></div></article>
+          <article class="microbe-card"><span class="microbe-card-icon blue">✤</span><div><span class="microbe-type">BACTÉRIA</span><h3><em>Escherichia coli</em></h3><p>Muitas variedades vivem no intestino sem causar doença; algumas podem provocar infecções. Higiene das mãos e dos alimentos é importante.</p><button class="learn-more" data-info="ecoli">Saiba mais <span>→</span></button></div></article>
+          <article class="microbe-card"><span class="microbe-card-icon green">✺</span><div><span class="microbe-type">BACTÉRIA</span><h3><em>Pseudomonas aeruginosa</em></h3><p>Pode causar infecções oportunistas, sobretudo em pessoas vulneráveis. A limpeza e o controle de fontes de contaminação são relevantes.</p><button class="learn-more" data-info="pseudo">Saiba mais <span>→</span></button></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-wrap" id="quiz">
+      <div class="quiz-intro"><span class="eyebrow">DESAFIO BIOSEGURO</span><h2>Quanto você sabe<br>sobre <span>biossegurança?</span></h2><p>Responda às perguntas, veja seu resultado e descubra o que pode aprender a seguir.</p><div class="quiz-decoration">?</div><div class="quiz-decoration second">✦</div></div>
+      <div class="quiz-panel" id="quizPanel">
+        <div class="quiz-progress-line"><span id="quizProgress"></span></div>
+        <div class="quiz-meta"><span id="quizQuestionCount">PERGUNTA 1 DE 5</span><span class="quiz-tag">NÍVEL BÁSICO</span></div>
+        <h3 id="quizQuestion">Carregando pergunta...</h3>
+        <div class="quiz-options" id="quizOptions"></div>
+        <div class="quiz-feedback" id="quizFeedback" aria-live="polite"></div>
+        <div class="quiz-controls"><span id="quizHint">Escolha uma resposta para continuar.</span><button class="button button-primary" id="quizNext" disabled>Próxima pergunta →</button></div>
+      </div>
+    </section>
+
+    <section class="community-section" id="comunidade">
+      <div class="section-wrap community-layout">
+        <div class="community-copy"><span class="eyebrow">APRENDER EM CONJUNTO</span><h2>Uma comunidade<br>que cuida <span>junto.</span></h2><p>Compartilhar dúvidas e experiências pode ampliar o conhecimento. Este mural é uma demonstração local para fins educativos e acadêmicos.</p><div class="community-note"><span>♡</span><span><strong>Respeito e responsabilidade</strong><small>Não compartilhe dados pessoais, informações de pacientes ou orientações clínicas sem validação profissional.</small></span></div></div>
+        <div class="forum-panel"><div class="forum-header"><div><span class="online-dot"></span><strong>Mural de aprendizagem</strong></div><span class="demo-tag">MODO DEMONSTRAÇÃO</span></div>
+          <div class="forum-posts" id="forumPosts">
+            <article class="forum-post"><span class="post-avatar avatar-teal">LM</span><div><div class="post-meta"><strong>Larissa M.</strong><span>Exemplo de discussão</span></div><p>Qual é a diferença entre limpeza e desinfecção de superfícies?</p><div class="post-reaction">♡ <span>Discussão educativa</span></div></div></article>
+            <article class="forum-post"><span class="post-avatar avatar-orange">RC</span><div><div class="post-meta"><strong>Rafael C.</strong><span>Exemplo de discussão</span></div><p>Por que a higiene das mãos é tão importante na prevenção de infecções?</p><div class="post-reaction">♡ <span>Discussão educativa</span></div></div></article>
+          </div>
+          <form id="forumForm" class="forum-form"><label for="postName">Seu nome ou apelido</label><input id="postName" maxlength="35" placeholder="Ex.: Estudante de saúde" required><label for="postText">Compartilhe uma dúvida ou reflexão</label><textarea id="postText" maxlength="240" placeholder="Escreva sua mensagem..." required></textarea><div class="form-bottom"><small>Até 240 caracteres. Fica salvo apenas neste navegador.</small><button class="button button-primary" type="submit">Publicar <span>↗</span></button></div><p class="form-message" id="forumMessage" aria-live="polite"></p></form>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-cta section-wrap"><div class="closing-mascot">●ᴗ●</div><div><span class="eyebrow">UM PASSO DE CADA VEZ</span><h2>Prevenir também é <span>cuidar.</span></h2><p>Compartilhe conhecimento. Pratique hábitos seguros. Faça parte da prevenção.</p></div><a class="button button-primary" href="#inicio">Voltar ao início ↑</a></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand"><span class="brand-mark small-mark">✚</span><span><strong>BioSeguro</strong><small>Biossegurança para todos</small></span></div><p>Projeto acadêmico demonstrativo • Conteúdo educativo</p><div class="footer-links"><a href="#higiene">Guia</a><a href="#microorganismos">Biblioteca</a><a href="#quiz">Quiz</a></div><small class="footer-disclaimer">As informações são introdutórias e não substituem orientações de profissionais, protocolos institucionais ou fontes oficiais de saúde.</small></footer>
+
+  <dialog id="infoDialog" class="info-dialog"><button class="dialog-close" id="dialogClose" aria-label="Fechar">×</button><span class="eyebrow">SAIBA MAIS</span><h3 id="dialogTitle"></h3><p id="dialogText"></p><button class="button button-primary" id="dialogOk">Entendi</button></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
